@@ -1,0 +1,44 @@
+.items {
+  display: grid;
+  background-color: rgb(186, 249, 243, 255);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-items: stretch;
+  align-items: stretch;
+  color: rgb(0, 0, 0);
+  font-family: 'Montserrat', sans-serif; 
+  text-align: center; 
+  line-height: 1.5;
+}
+
+.item{
+  padding: 9px 20px;
+  background-color: rgb(147, 222, 222);
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  border-radius: 15px;
+  width: fit-content;
+  margin: 20px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
+  
+}
+.delete{
+  padding: 9px 20px;
+  background-color: rgba(232, 123, 123);
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  border-radius: 15px;
+}
+.update{
+  padding: 9px 20px;
+  background-color: rgb(123, 232, 205);
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  border-radius: 15px;
+}
